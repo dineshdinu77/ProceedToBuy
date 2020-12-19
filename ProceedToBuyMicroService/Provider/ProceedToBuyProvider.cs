@@ -47,7 +47,7 @@ namespace ProceedToBuyService.Provider
             var client = new HttpClient();
 
 
-            client.BaseAddress = new Uri("http://13.86.96.99/");
+            client.BaseAddress = new Uri("http://52.154.213.50/");
             //client.BaseAddress = new Uri("http://40.76.144.8/");
                 client.DefaultRequestHeaders.Accept.Clear();
                 client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
